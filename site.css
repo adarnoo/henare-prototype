@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: helvetica;
+  background-color: #EEEEEE;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'CMU Normal';
+  src: url('./typefaces/cmu-normal.ttf') format('truetype');
+  font-display: block;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hd-page {
+  position: relative;
+  padding: 10px;
+}
+
+.hd-header-container {
+  position: fixed;
+  top: 10px;
+  display: inline-block;
+}
+
+.hd-header {
+  background: linear-gradient(to right, rgb(0, 54, 4) 0%, rgba(0, 0, 0, 0) 63%, rgb(25, 233, 107) 100%);
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 60px;
+  cursor: default;
+}
+
+.hd-links-container {
+  position: absolute;
+  padding-top: 150px;
+}
+
+.hd-link {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 60px;
+  background: linear-gradient(to right, rgb(0, 54, 4) 0%, rgba(0, 0, 0, 0) 63%, rgb(25, 233, 107) 100%);
+  margin-bottom: 10px;
+}
+
+.hd-link, a {
+  color: black;
+}
+
+.hd-link:hover {
+  opacity: 50%;
+}

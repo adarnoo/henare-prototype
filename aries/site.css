@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.hd-page {
+  position: relative;
+  padding: 10px;
+}
+
+.hd-header-container {
+  position: fixed;
+  top: 10px;
+  background: linear-gradient(to right, rgb(0, 54, 4) 0%, rgba(0, 0, 0, 0) 63%, rgb(25, 233, 107) 100%);
+  display: inline-block;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 60px;
+  background-color: none;
+}
+
+.hd-header-container:hover {
+  background: linear-gradient(to right, rgb(211, 174, 221) 0%, rgba(0, 0, 0, 0) 25%, rgb(144, 202, 242) 100%);
+  cursor: pointer;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.hd-image-container {
+  width: 50%;
+}
+
+.hd-image {
+  margin-bottom: 10px;
+}
